@@ -1,0 +1,24 @@
+body {
+    background-color: #478d91;
+	background-image: url("https://img.clipartfest.com/d061db8f5f4f23651c809647f5d17d15_music20notes20on20staff-transparent-clipart-music_2605-970.gif");
+}
+
+p {
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: white;
+	line-height: 19.99px; 
+}
+
+h1 {
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color: white;
+	line-height: 26.4px;
+}
