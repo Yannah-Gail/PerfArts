@@ -22,3 +22,41 @@ h1 {
 	color: white;
 	line-height: 26.4px;
 }
+
+label {
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: white;
+	line-height: 19.99px; 
+}
+
+/* below here are the settings for the menu display */
+/* see http://www.w3schools.com/css/css_navbar.asp for examples */
+menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-size: 24px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333;
+}
