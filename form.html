@@ -1,12 +1,24 @@
 <html>
 <head>
 <link rel = "stylesheet"
-	type = "text/css"
-	href = "style.css"
+	  type = "text/css"
+	  href = "style.css"
 />	
 </head>
 	
-	<body><form action="/my-handling-form-page" method="post">
+<body>
+<!--
+Please make the following changes:
+1. open info.html from github and copy out the menu code portion and apply to this page so a menu shows up
+2. edit the javascript function below to also display the link they enter into the form
+3. also in the javascript code, have text at the bottom of the popup that says - sorry, we weren't able to 
+   implement the submission function but they can email their info to GWCPlainfield1@gmail.com
+4. see if you can clean up the alignment of the fields so that they are consistently spaced
+   google "html form spacing"
+-->	
+	
+	
+	<form name="form1">
 
     <div>
 
@@ -44,8 +56,16 @@
 
     <div class="button">
 
-	<button type="submit">Send your message</button>
+	<button type="submit" onClick="display();">Send your message</button>
 
     </div>
 
 </form>
+<script LANGUAGE="JavaScript" type="text/javascript">
+function display() {
+  DispWin = window.open('','NewWin', 'toolbar=no,status=no,width=300,height=200')
+  message = "<ul><li><b>Name: </b>" + document.form1.name.value;
+  message += "<li><b>Email: </b>" + document.form1.email.value + "</ul>";
+  DispWin.document.write(message);
+}
+</script>
